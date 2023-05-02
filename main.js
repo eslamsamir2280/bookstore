@@ -1,5 +1,6 @@
 
 let bookList = []; 
+let ID = 1
 
 function addbook() {
   const id = document.getElementById("id").value.trim(); 
@@ -14,7 +15,7 @@ function addbook() {
     return; 
   }
 
-  
+  ID =++ID
   const book = { id, title, author, qty, price };
 
   
@@ -22,7 +23,7 @@ function addbook() {
   console.log(bookList);
 
   
-  document.getElementById("id").value = "";
+  document.getElementById("id").value = "ID";
   document.getElementById("title").value = "";
   document.getElementById("author").value = "";
   document.getElementById("qty").value = "";
