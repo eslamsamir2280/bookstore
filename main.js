@@ -1,6 +1,6 @@
 
 let bookList = []; 
-let ID = 1
+
 
 function addbook() {
   const id = document.getElementById("id").value.trim(); 
@@ -14,7 +14,7 @@ function addbook() {
     alert("Please fill all the fields!");
     return; 
   }
-
+  let ID = id;
   ID =++ID
   const book = { id, title, author, qty, price };
 
