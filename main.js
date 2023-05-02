@@ -23,7 +23,7 @@ function addbook() {
   console.log(bookList);
 
   
-  document.getElementById("id").value = "ID";
+  document.getElementById("id").value = ID;
   document.getElementById("title").value = "";
   document.getElementById("author").value = "";
   document.getElementById("qty").value = "";
