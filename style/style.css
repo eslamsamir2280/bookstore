@@ -3,17 +3,10 @@ body {
 }
 h1 {
   color: #00002a;
-  padding-top: 30px;
+  padding-top: 10px;
   opacity: 1;
   font-size: 20px;
   font-weight: bold;
-}
-.home {
-  background-image: url(../images/pexels-yuval-zukerman-9279598.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 20vh;
-  /* opacity: 0.5; */
 }
 form {
   margin-left: 10px;
